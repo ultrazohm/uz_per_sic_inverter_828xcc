@@ -1,24 +1,27 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Veit\Desktop\Sync\Workspaces\Altium\AEG ELSYS\uz_per_sic_inverter_828xcc\UZ_PER_SiC_inverter_828xcc.PcbDoc
-Date     : 10.01.2023
-Time     : 14:32:27
+PCB File : C:\Users\Veit\Documents\Workspaces\Altium\uz_per_sic_inverter_828xcc\UZ_PER_SiC_inverter_828xcc.PcbDoc
+Date     : 25.01.2023
+Time     : 10:01:09
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) ((InNet('NetR32A_2') OR InNet('NetR32B_2') OR InNet('NetR32C_2') OR InNet('NetR32D_2')or InNet('NetR33A_2') OR InNet('NetR33B_2') OR InNet('NetR33C_2') OR InNet('NetR33D_2'))),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=2.1mm) ((InNet('I_IN1') OR InNet('I_IN2') OR InNet('I_IN3') OR InNet('I_IN4') OR InNet('I_M_OUT1') OR InNet('I_M_OUT2') OR InNet('I_M_OUT3') OR InNet('I_M_OUT4'))),(All)
+Processing Rule : Clearance Constraint (Gap=2.1mm) (((InNet('I_IN1') OR InNet('I_IN2') OR InNet('I_IN3') OR InNet('I_IN4') OR InNet('I_M_OUT1') OR InNet('I_M_OUT2') OR InNet('I_M_OUT3') OR InNet('I_M_OUT4')) AND (OnLayer('Bottom Layer') OR    OnLayer('Top Layer')))),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('DifferentialSignals')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.1mm) ((InNet('NetC31_1') OR InNet('NetR1_1')OR InNet('NetR2_1')OR InNet('NetR3_1'))),(All)
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('Power')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+Processing Rule : Clearance Constraint (Gap=1.5mm) ((InNet('I_IN1') OR InNet('I_IN2') OR InNet('I_IN3') OR InNet('I_IN4') OR InNet('I_M_OUT1') OR InNet('I_M_OUT2') OR InNet('I_M_OUT3') OR InNet('I_M_OUT4'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) ((InNet('NetC31_1') OR InNet('NetR1_1')OR InNet('NetR2_1')OR InNet('NetR3_1'))),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -33,18 +36,18 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.3mm) (All)
+Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.3mm) (InNetClass('Power'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.3mm) (InNetClass('Power'))
+Processing Rule : Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.3mm) (All)
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6mm) (All)
-   Violation between Hole Size Constraint: (9mm > 6mm) Pad IC4-MH1(68.7mm,99.945mm) on Multi-Layer Actual Hole Size = 9mm
-   Violation between Hole Size Constraint: (9mm > 6mm) Pad IC4-MH2(68.7mm,133.445mm) on Multi-Layer Actual Hole Size = 9mm
+   Violation between Hole Size Constraint: (9mm > 6mm) Pad IC4-MH1(70.8mm,149.145mm) on Multi-Layer Actual Hole Size = 9mm
+   Violation between Hole Size Constraint: (9mm > 6mm) Pad IC4-MH2(70.8mm,182.645mm) on Multi-Layer Actual Hole Size = 9mm
 Rule Violations :2
 
 Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
@@ -59,4 +62,4 @@ Rule Violations :0
 
 Violations Detected : 2
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01

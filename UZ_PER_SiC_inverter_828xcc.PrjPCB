@@ -236,13 +236,13 @@ GenerateClassCluster=0
 DocumentUniqueId=HIXHNDPV
 
 [Document12]
-DocumentPath=..\..\Libs\AEG ELSYS\altium_libraries\symbols\Power - Module\SCH - POWER - MODULE - IM828XCC.SchLib
+DocumentPath=OC_Trigger.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -250,10 +250,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=XYRFOUKB
+DocumentUniqueId=NWKKNKGA
 
 [Document13]
-DocumentPath=..\..\Libs\AEG ELSYS\altium_libraries\footprints\Power Module\PCB - POWER - IM828XCC.PcbLib
+DocumentPath=..\00_LIBS\altium_libraries\symbols\Relay\SCH - RELAY - LTV356T.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -267,10 +267,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=IDGOEDSF
+DocumentUniqueId=ITNXMPTH
 
 [Document14]
-DocumentPath=..\..\Libs\AEG ELSYS\altium_libraries\symbols\Power - Module\SCH - POWER - MODULE - AP63205.SCHLIB
+DocumentPath=..\00_LIBS\altium_libraries\footprints\Relay\PCB - RELAY - LTV-356T.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -284,41 +284,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=HSKSEQTQ
-
-[Document15]
-DocumentPath=..\..\Libs\AEG ELSYS\altium_libraries\symbols\Power - Module\SCH - POWER - MODULE - NXJ2-24V.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YACXJHTS
-
-[Document16]
-DocumentPath=..\..\Libs\AEG ELSYS\altium_libraries\footprints\Power Module\PCB - POWER - NXJ2-24V.PCBLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YDNBCIDM
+DocumentUniqueId=JKUFEBNS
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for UZ_PER_SiC_inverter_828xcc\Design Rule Check - UZ_PER_SiC_inverter_828xcc.html
