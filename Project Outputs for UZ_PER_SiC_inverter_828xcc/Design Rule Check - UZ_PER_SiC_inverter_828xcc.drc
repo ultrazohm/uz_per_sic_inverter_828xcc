@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\GIT\UltraZohm\pcb_design\uz_per_sic_inverter_828xcc\UZ_PER_SiC_inverter_828xcc.PcbDoc
-Date     : 14.02.2023
-Time     : 16:47:16
+Date     : 15.02.2023
+Time     : 20:22:04
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) ((InNet('NetR17A_2') OR InNet('NetR17B_2') OR InNet('NetR17C_2') OR InNet('NetR17D_2')or InNet('NetR17A_2') OR InNet('NetR17B_2') OR InNet('NetR17C_2') OR InNet('NetR17D_2'))),(All)
 Rule Violations :0
@@ -62,4 +62,4 @@ Rule Violations :0
 
 Violations Detected : 2
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:02
