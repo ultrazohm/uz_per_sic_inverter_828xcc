@@ -1,4 +1,5 @@
 DRC Rules Export File for PCB: C:\GIT\UltraZohm\pcb_design\uz_per_sic_inverter_828xcc\UZ_PER_SiC_inverter_828xcc.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=7.87
 RuleKind=Clearance|RuleName=Clearance_HV_internal|Scope=Board|Minimum=59.06
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_via|Scope=Board|Minimum=4.00
 RuleKind=Clearance|RuleName=Clearance_HVmess|Scope=Board|Minimum=3.94
@@ -7,6 +8,6 @@ RuleKind=Clearance|RuleName=Clearance_Differential|Scope=Board|Minimum=3.94
 RuleKind=Width|RuleName=Width_Power|Scope=Board|Minimum=7.87
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.94
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
 RuleKind=Clearance|RuleName=Clearance_Power|Scope=Board|Minimum=3.94
