@@ -1,0 +1,73 @@
+Circuit: * C:\GIT\UltraZohm\pcb_design\uz_per_sic_inverter_828xcc\LTSpice\Draft1.asc
+
+Limiting rise time of source v2 to 0.001
+Limiting fall time of source v2 to 0.001
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.000123022
+vernier = 0.03125
+vernier = 0.0416667
+Gmin = 0.000114705
+vernier = 0.0555555
+vernier = 0.074074
+Gmin = 0.000100501
+vernier = 0.0987653
+Gmin = 8.11634e-05
+vernier = 0.131687
+vernier = 0.175583
+Gmin = 5.73312e-05
+vernier = 0.23411
+vernier = 0.312147
+Gmin = 3.32333e-05
+vernier = 0.416196
+Gmin = 1.39144e-05
+vernier = 0.554928
+vernier = 0.739903
+Gmin = 3.47391e-06
+vernier = 0.986537
+vernier = 1
+Gmin = 4.44985e-07
+Gmin = 4.77799e-08
+Gmin = 5.13033e-09
+Gmin = 5.50865e-10
+Gmin = 5.91486e-11
+Gmin = 6.35104e-12
+Gmin = 6.81937e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Changing Tseed to 1.95312e-09
+Changing Tseed to 1.95312e-11
+Changing Tseed to 1.95312e-08
+Changing Tseed to 1.95312e-12
+Changing Tseed to 1.95313e-07
+Changing Tseed to 1.95313e-13
+
+Date: Tue Feb 14 13:29:05 2023
+Total elapsed time: 2.850 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 208220
+traniter = 207162
+tranpoints = 54323
+accept = 40866
+rejected = 13451
+matrix size = 51
+fillins = 1
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 2.01 KB object code size  0.8/0.8/[0.6]
+Matrix Compiler2: 3.09 KB object code size  0.7/0.6/[0.6]
+
